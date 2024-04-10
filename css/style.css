@@ -1,0 +1,194 @@
+body  {
+  background-image: url("../image/black.jpg");
+
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+}
+h1 {
+  color: white;
+  font-family: verdana;
+  font-size: 300%;
+
+}
+h2 {
+  color: white;
+  font-family: verdana;
+  font-size: 300%;
+
+}
+h3 {
+  color: black;
+  font-family: verdana;
+  font-size: 300%;
+
+}
+tr {
+  color: white;
+
+}
+p  {
+  color: white;
+  font-family: courier;
+  font-size: 160%;
+}
+p  {
+text-align: center;
+}
+a {
+   text-decoration: none;
+}
+
+#para1 {
+  text-align: center;
+  color: white;
+}
+.right {
+  float: right;
+
+}
+.left {
+  float: left;
+ 
+}
+ .GFG img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+        }
+		.RAN {
+  border: 8px solid black;
+  background-color: white;
+  color: black;
+
+}
+
+.p3 {
+  font-family: Arial, sans-serif;
+}
+.title{
+	font-family: myFirstFont;
+
+}
+a:hover {
+  background-color: yellow;
+}
+.butterfly-kids-regular {
+  font-family: "Butterfly Kids", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: yellow;
+  }
+}
+
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  background: white;  
+  color:black;
+  font-family: Georgia, "Times New Roman", serif;
+}
+#rcorners3 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  background: white;  
+  color:black;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#main-navbar  a:hover {
+  background-color: white;
+}
+
+#para2 {
+  color: black;
+}
+#para3 {
+  color: black;
+}
+
+
+#main-navbar {
+  background-color: black;
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: black;
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+
+#sidebar {
+  position: fixed;
+  right:0%;
+  background-color: yellow;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+#sidebar ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #FF4500;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
+}
