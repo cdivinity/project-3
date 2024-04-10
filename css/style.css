@@ -85,11 +85,39 @@ img {
   height: 200px;
   border-radius: 50%;
 }
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
 @media screen and (max-width: 600px) {
   body {
-    background-color: olive;
+    background-image: url("../image/pexels-elīna-arāja-3377405.jpg");
     color: yellow;
   }
+  @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+}
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  height: 100%;
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
